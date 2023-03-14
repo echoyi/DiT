@@ -49,7 +49,7 @@ def main(args):
     img_id = args.start_img_id
     class_labels_all = [i for i in range(args.num_classes)]*args.n_iter
     
-    bs = 10
+    bs = args.bs
     if len(class_labels_all)%bs != 0: raise ValueError
     for iter_idx in range(len(class_labels_all)//bs):
         class_labels = class_labels_all[iter_idx*bs: (iter_idx+1)*bs]
@@ -104,6 +104,7 @@ if __name__ == "__main__":
     parser.add_argument("--num-sampling-steps", type=int, default=250)
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--n_iter", type=int, default=100, help='number of samples per class, default 100')
+    parser.add_argument("--bs", type=int, default=10, help='batch size for generation, default 10')
     parser.add_argument("--start_img_id", type=int, default=0, help='img id of the first generated image, default 0')
     parser.add_argument("--ckpt", type=str, default=None,
                         help="Optional path to a DiT checkpoint (default: auto-download a pre-trained DiT-XL/2 model).")
