@@ -14,9 +14,9 @@ zip -r DiT-XL-2-256-30000-39999 res/
 # zip -r DiT-XL-2-256-40000-49999 res/
 # python sample.py --image-size 256 --seed 6 --n_iter 10 --start_img_id 50000 --bs 10 #Zhaoyan
 # zip -r DiT-XL-2-256-50000-549999 res/
-# python sample.py --image-size 256 --seed 7 --n_iter 10 --start_img_id 60000 --bs 10
+# python sample.py --image-size 256 --seed 7 --n_iter 10 --start_img_id 60000 --bs 10 #Valentin 
 # zip -r DiT-XL-2-256-60000-69999 res/
-# python sample.py --image-size 256 --seed 8 --n_iter 10 --start_img_id 70000 --bs 10
+# python sample.py --image-size 256 --seed 8 --n_iter 10 --start_img_id 70000 --bs 10 #Anthony
 # zip -r DiT-XL-2-256-70000-79999 res/
 # python sample.py --image-size 256 --seed 9 --n_iter 10 --start_img_id 80000 --bs 10
 # zip -r DiT-XL-2-256-80000-89999 res/
