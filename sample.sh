@@ -10,9 +10,9 @@
 
 python sample.py --image-size 256 --seed 4 --n_iter 10 --start_img_id 30000 --bs 10 #Amy
 zip -r DiT-XL-2-256-30000-39999 res/
-# python sample.py --image-size 256 --seed 5 --n_iter 10 --start_img_id 40000 --bs 10
+# python sample.py --image-size 256 --seed 5 --n_iter 10 --start_img_id 40000 --bs 10 #Jesse
 # zip -r DiT-XL-2-256-40000-49999 res/
-# python sample.py --image-size 256 --seed 6 --n_iter 10 --start_img_id 50000 --bs 10
+# python sample.py --image-size 256 --seed 6 --n_iter 10 --start_img_id 50000 --bs 10 #Zhaoyan
 # zip -r DiT-XL-2-256-50000-549999 res/
 # python sample.py --image-size 256 --seed 7 --n_iter 10 --start_img_id 60000 --bs 10
 # zip -r DiT-XL-2-256-60000-69999 res/
