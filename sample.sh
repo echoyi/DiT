@@ -12,7 +12,7 @@
 # python sample.py --image-size 256 --seed 4 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema -num-sampling-step 250 #brendan
 # zip -r DiT-XL-2-256-30000-39999 res/
 
-# python sample.py --image-size 256 --seed 5 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema -num-sampling-step 250
+# python sample.py --image-size 256 --seed 5 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema -num-sampling-step 250 # rasa
 # zip -r DiT-XL-2-256-40000-49999 res/
 
 # python sample.py --image-size 256 --seed 6 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema -num-sampling-step 250
