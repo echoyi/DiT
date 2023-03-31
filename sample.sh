@@ -11,7 +11,7 @@
 # zip -r DiT-XL-2-256-10000-19999 res/
 
 # rm -rf res/
-# python sample.py --image-size 256 --seed 3 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema --num-sampling-step 250
+# python sample.py --image-size 256 --seed 3 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema --num-sampling-step 250 #brendan
 # zip -r DiT-XL-2-256-20000-29999 res/
 
 # rm -rf res/
@@ -27,7 +27,7 @@
 # zip -r DiT-XL-2-256-50000-549999 res/
 
 # rm -rf res/
-# python sample.py --image-size 256 --seed 7 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema --num-sampling-step 250
+# python sample.py --image-size 256 --seed 7 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema --num-sampling-step 250 #Anthony
 # zip -r DiT-XL-2-256-60000-69999 res/
 
 # rm -rf res/
