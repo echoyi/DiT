@@ -35,7 +35,7 @@
 # zip -r DiT-XL-2-256-70000-79999 res/
 
 # rm -rf res/
-# python sample.py --image-size 256 --seed 9 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema --num-sampling-step 250
+# python sample.py --image-size 256 --seed 9 --n_iter 10 --start_img_id 0 --bs 10 --cfg-scale 1.5 --vae ema --num-sampling-step 250 #Zhaoyan
 # zip -r DiT-XL-2-256-80000-89999 res/
 
 # rm -rf res/
